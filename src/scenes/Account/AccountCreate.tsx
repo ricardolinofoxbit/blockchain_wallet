@@ -66,16 +66,21 @@ function AccountCreate() {
 
   return (
     <div className='AccountCreate p-5 m-3 card shadow'>
-      <h1>
-        Foxbit Wallet
-      </h1>
+      <div className="container text-center">
+        <div className="row align-items-center">
+          <div className="col">
+            <img src="./foxbitbrand.png" width="200" className="rounded mx-auto d-block" />
+            <span className='h5'>Wallet</span>
+          </div>
+        </div>
+      </div>
       <form onSubmit={event => event.preventDefault()}>
-        <button type="button" className="btn btn-primary" onClick={createAccount}>
+        <button type="button" className="btn" style={{ backgroundColor: '#ff6f00', color: '#fff' }} onClick={createAccount}>
           Create Account
         </button>
         {/* Add a button to toggle showing the recover account input and button */}
         {/* If show recover input is visible, clicking the button again will submit the phrase in the input */}
-        <button type="button" className="btn btn-outline-primary ml-3"
+        <button type="button" className="btn ml-3" style={{ borderColor: '#ff6f00', color: '#000' }}
           onClick={() => showRecoverInput ? recoverAccount(seedphrase) : setShowRecoverInput(true)}
           // if the recoveryinput is showing but there is no seedphrase, disable the ability to recover account
           disabled={showRecoverInput && !seedphrase}
