@@ -1,0 +1,20 @@
+
+Entregas:
+- Criação de Conta
+- Recuperação de Conta 
+- Listar Transações
+- Ler Saldo 
+- Envio de Token 
+- Extensão Web
+
+Maiores Desafios (importantes mas não implementados):
+- Seleção de rede (chain)
+- Seleção de Token
+- Segurança de chave privada
+- Conexão com Browser
+- Suporte ao Bitcoin
+
+Maiores aprendizados:
+- Aprendemos o essencial para se desenvolver uma wallet simples. 
+- Conhecemos ferramentas de desenvolvimento que são utilizadas no universo web3 (Thrirdweb, Moralis)
+

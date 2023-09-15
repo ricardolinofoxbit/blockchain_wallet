@@ -5,13 +5,13 @@
   "manifest_version": 3,
   "version": "1.0",
   "action": {
-      "default_popup": "index.html",
-      "default_title": "Open Wallet"
+    "default_popup": "index.html",
+    "default_title": "Open Wallet"
   },
   "permissions": [],
   "icons": {
-      "16": "walletLogo512.png",
-      "48": "walletLogo512.png",
-      "128": "walletLogo512.png"
+    "16": "walletLogo128.png",
+    "48": "walletLogo128.png",
+    "128": "walletLogo128.png"
   }
 }
