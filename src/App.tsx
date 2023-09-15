@@ -1,12 +1,12 @@
-import React from 'react';
 import './App.css';
-import AccountCreate from './scenes/Account/AccountCreate';
+import ConnectWalletApp from './scenes/Connect/ConnectWallet';
 
 function App() {
   
   return (
     <div className="App container">
-      <AccountCreate />
+      <ConnectWalletApp />
+
     </div>
   );
 }
